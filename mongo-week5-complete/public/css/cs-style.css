@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+  margin-left:35%;
+  margin-top:3vh;
+  color:#8f246b;
+}
+input[type='text']{
+    display:block;
+    width:80%;
+    margin-bottom:10px;
+    font-size:12px;
+  }
+  input[type='button']{
+    font-size:12px;
+    }
+    #parentContainer{
+        width:100%;
+        background: #eeeeee;
+        margin-top:2%;
+        padding:20px;
+    
+      }
+      
+      .addIn,.searchDiv{
+        background:#b82e8a;
+        border: 1px solid  #ebadd6;
+        width:40%;
+        padding:1%;
+        height:min-content;
+      }
+      .addIn p, .searchDiv p {
+        color:#ffffff;
+        font-size:18px;
+      }
+ 
+

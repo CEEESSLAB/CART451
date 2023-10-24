@@ -1,0 +1,48 @@
+h1 {
+
+  color: #c533ff;
+  background: #f5c2ff;
+  text-align:center;
+}
+
+
+.options-text li {
+  list-style: none;
+  background: rgb(213, 144, 232);
+  width: max-content;
+  padding: 5px;
+  margin: 3px;
+  display: inline-block;
+
+}
+
+.options-json li {
+  list-style: none;
+  background: rgb(216, 180, 226);
+  width: max-content;
+  padding: 5px;
+  margin: 3px;
+  display: inline-block;
+}
+
+.options-text li:hover,
+.options-json li:hover {
+  background-color: #c533ff;
+  color: white;
+  cursor: pointer;
+}
+
+.options-binary {
+  background-color: #c533ff;
+  color: white;
+  padding: 2px;
+  margin-left: 3px;
+  width: max-content;
+}
+
+.wrapper{
+  width:50vw;
+  margin-left:250px;
+  background-color:#ededed;
+  padding:10px;
+}

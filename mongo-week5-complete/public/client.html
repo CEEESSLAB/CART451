@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>DATA AND MONGO</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/cs-style.css" />
+ 
+    <script src="js/client.js"></script>
+  </head>
+
+  <body>
+      <h2>SAMPLE ADDIN FORM</h2>
+      <div id = "parentContainer">
+        <div class = "addIn">
+    <form id = "inputShipwreck">
+    <input type="text" id="feature_type" name = "features" placeholder="features" />
+    <input type="text" id="water_level" name = "water_lev" placeholder="water level" />
+    <input type="text" id="chart" name = "chart" placeholder="US,U1,graph,DNC H1409860" />
+    <input type = "number" id="lat" name = "lat" placeholder="latitude" />
+    <input type = "number" id="lng" name = "lng" placeholder="longitude" />
+    <input type="button" value="Send Data!" id="sendData" />
+    </form>
+</div>
+</div>
+<h2>SAMPLE SEARCH FORM:: get results *near*?</h2>
+<div id = "parentContainer">
+<div class = "searchDiv">
+  <input type="number" id="search_lat" placeholder="enter lat" />
+  <input type="number" id="search_long" placeholder="enter lng" />
+  <input type="button" value="Get Data!" id="findData" />
+</div>
+<div id = "response" class = 'searchDiv'> the response </div>
+</div>
+  </body>
+</html>

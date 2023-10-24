@@ -1,0 +1,50 @@
+body{
+  background:black;
+}
+
+h1 {
+
+  color: #c533ff;
+  /* background: #f5c2ff; */
+  text-align:center;
+}
+#back
+{
+  background:black;
+  width:500px;
+  height:500px;
+  position:relative;
+}
+#pixel{
+  width:20px;
+  height:20px;
+  background:red;
+  position:absolute;
+  left:10px;
+  top:10px;
+}
+#toSend{
+  margin-left:5vw;
+  width:90vw;
+  height:100px;
+  background: #c533ff;
+  padding:5px;
+  display:flex;
+
+}
+.button:hover{
+  background: #8f069b;
+  cursor: pointer;
+  color:white;
+
+}
+.button{
+  width:100px;
+  height:90px;
+  background:rgb(243, 216, 238);
+  cursor: pointer;
+  margin:5px;
+  font-size:36px;
+  text-align: center;
+  color: #c533ff;
+}
